@@ -5,12 +5,22 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String marca;
+	private int km;
 	
-	public Coche(int id, String matricula, String modelo, String marca) {
+	public Coche(int id, String matricula, String modelo, String marca, int km) {
 		this.id = id;
 		this.matricula = matricula;
 		this.modelo = modelo;
 		this.marca = marca;
+		this.km = km;
+	}
+
+	public int getKm() {
+		return km;
+	}
+
+	public void setKm(int km) {
+		this.km = km;
 	}
 
 	public int getId() {
