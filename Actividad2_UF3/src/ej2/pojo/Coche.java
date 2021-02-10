@@ -6,6 +6,8 @@ public class Coche {
 	private String modelo;
 	private String marca;
 	private int km;
+
+	Motor potencia;
 	
 	public Coche(int id, String matricula, String modelo, String marca, int km) {
 		this.id = id;
@@ -21,6 +23,14 @@ public class Coche {
 
 	public void setKm(int km) {
 		this.km = km;
+	}
+
+	public Motor getPotencia() {
+		return potencia;
+	}
+
+	public void setPotencia(Motor potencia) {
+		this.potencia = potencia;
 	}
 
 	public int getId() {
