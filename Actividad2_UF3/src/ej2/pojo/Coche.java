@@ -5,12 +5,21 @@ public class Coche {
 	private String matricula;
 	private String modelo;
 	private String marca;
+	Motor potencia;
 	
 	public Coche(int id, String matricula, String modelo, String marca) {
 		this.id = id;
 		this.matricula = matricula;
 		this.modelo = modelo;
 		this.marca = marca;
+	}
+
+	public Motor getPotencia() {
+		return potencia;
+	}
+
+	public void setPotencia(Motor potencia) {
+		this.potencia = potencia;
 	}
 
 	public int getId() {
