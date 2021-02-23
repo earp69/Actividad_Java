@@ -11,6 +11,7 @@ public class Coche {
 	//estos son los cambios
 	//nada mas que decir!!!
 
+//cambios
 	Motor potencia;
 	
 	public Coche(int id, String matricula, String modelo, String marca, int km, double precio, double antiguedad) {
