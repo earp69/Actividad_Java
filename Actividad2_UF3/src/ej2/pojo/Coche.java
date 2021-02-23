@@ -8,6 +8,8 @@ public class Coche {
 	private int km;
 	private double precio;
 	private double antiguedad;
+	//estos son los cambios
+	//nada mas que decir!!!
 
 	Motor potencia;
 	
