@@ -7,16 +7,22 @@ public class Coche {
 	private String marca;
 	private int km;
 	private double precio;
+	private double antiguedad;
 
 	Motor potencia;
 	
-	public Coche(int id, String matricula, String modelo, String marca, int km, double precio) {
+	public Coche(int id, String matricula, String modelo, String marca, int km, double precio, double antiguedad) {
 		this.id = id;
 		this.matricula = matricula;
 		this.modelo = modelo;
 		this.marca = marca;
 		this.km = km;
 		this.precio = precio;
+		this.antiguedad = precio;
+	}
+
+	public double getAntiguedad() {
+		return antiguedad;
 	}
 
 	public double getPrecio() {
