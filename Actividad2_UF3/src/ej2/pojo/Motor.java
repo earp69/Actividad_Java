@@ -6,7 +6,7 @@ public class Motor {
 	private String potencia;
 	public int cilindrada;
 	public Motor(int id, String tipoMotor, String potencia, int cilindrada) {
-			
+	//cambios
 		this.id = id;
 		this.tipoMotor = tipoMotor;
 		this.potencia = potencia;
