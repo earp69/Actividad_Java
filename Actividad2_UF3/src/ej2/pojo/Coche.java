@@ -6,32 +6,19 @@ public class Coche {
 	private String modelo;
 	private String marca;
 	private int km;
-	private double precio;
-	private double antiguedad;
-//cambios
+
 	Motor potencia;
 	
-	public Coche(int id, String matricula, String modelo, String marca, int km, double precio, double antiguedad) {
+	public Coche(int id, String matricula, String modelo, String marca, int km) {
 		this.id = id;
 		this.matricula = matricula;
 		this.modelo = modelo;
 		this.marca = marca;
 		this.km = km;
-		this.precio = precio;
-		this.antiguedad = precio;
+		
 	}
 
-	public double getAntiguedad() {
-		return antiguedad;
-	}
-
-	public double getPrecio() {
-		return precio;
-	}
-
-	public void setPrecio(double precio) {
-		this.precio = precio;
-	}
+	
 
 	public int getKm() {
 		return km;
