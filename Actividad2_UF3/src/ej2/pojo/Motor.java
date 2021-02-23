@@ -4,26 +4,17 @@ public class Motor {
 	private int id;
 	private String tipoMotor;
 	private String potencia;
-	public int cilindrada;
-	//estos son los cambios
-	//nada mas que decir!!!
-	public Motor(int id, String tipoMotor, String potencia, int cilindrada) {
-	//cambios
+
+	public Motor(int id, String tipoMotor, String potencia) {
+
 		this.id = id;
 		this.tipoMotor = tipoMotor;
 		this.potencia = potencia;
-		this.cilindrada = cilindrada;
+		
 		
 	}
 	
-	public int getCilindrada() {
-		return cilindrada;
-	}
-
-	public void setCilindrada(int cilindrada) {
-		this.cilindrada = cilindrada;
-	}
-
+	
 	public int getId() {
 		return id;
 	}
