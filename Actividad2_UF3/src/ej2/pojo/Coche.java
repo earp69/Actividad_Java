@@ -6,15 +6,25 @@ public class Coche {
 	private String modelo;
 	private String marca;
 	private int km;
+	private double precio;
 
 	Motor potencia;
 	
-	public Coche(int id, String matricula, String modelo, String marca, int km) {
+	public Coche(int id, String matricula, String modelo, String marca, int km, double precio) {
 		this.id = id;
 		this.matricula = matricula;
 		this.modelo = modelo;
 		this.marca = marca;
 		this.km = km;
+		this.precio = precio;
+	}
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(double precio) {
+		this.precio = precio;
 	}
 
 	public int getKm() {
