@@ -1,4 +1,5 @@
 #Primer repositorio de la Actividad 2 Git java, clase coche y clase motor
 
 .metadata
-.class
+bin/
+*.class
