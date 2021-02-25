@@ -4,13 +4,18 @@ public class Motor {
 	private int id;
 	private String tipoMotor;
 	private String potencia;
+	//Ultimo cambio
+	private String marca;
+	
+	public String getMarca() {
+		return marca;
+	}
 
-	public Motor(int id, String tipoMotor, String potencia) {
-
+	public Motor(int id, String tipoMotor, String potencia, String marca) {
 		this.id = id;
 		this.tipoMotor = tipoMotor;
 		this.potencia = potencia;
-		
+		this.marca = marca;
 		
 	}
 	
